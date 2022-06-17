@@ -1,0 +1,30 @@
+.text{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.categories {
+    background-color: #E2D4F0;
+    color: black;
+    border-radius: 12px;
+    padding: 8px;
+    padding-right: 14px;
+    border: none;
+    font-weight: 500;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.btn-active {
+    background-color: #7126B5;
+    color: white;
+}
+.btn-active:hover {
+    background-color: #3b066d;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+    background-color: #3b066d;
+}

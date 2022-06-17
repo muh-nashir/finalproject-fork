@@ -1,0 +1,58 @@
+.navbar {
+    width: 1440px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    float: left;
+    margin-right: 20px;
+    width: 100px;
+    height: 34px;
+    background-color: #4B1979;
+}
+
+.search-bar {
+    width: 444px;
+    border-radius: 16px;
+    font-family: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    background-color: #EEEEEE;
+}
+.input-bar,
+.input-bar:active,
+.input-bar:focus {
+    font-size: 14px;
+    background-color: #EEEEEE;  
+    outline: none;
+    border: none;
+    border-radius: 16px;
+    padding-left: 25px;
+}
+
+.btn-search {
+    display: block;
+    background-color: #EEEEEE;
+    border-radius: 16px;
+}
+.btn-search:hover {
+    color: white;
+}
+.cta-masuk {
+    margin-right: 6px;
+}
+.masuk {
+    border-radius: 8px;
+    background-color: #7126B5;
+    color: white;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding: 8px 14px;
+}
+
+.masuk:hover {
+    background-color: #3b066d;
+}
